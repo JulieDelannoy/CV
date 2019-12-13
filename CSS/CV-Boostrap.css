@@ -1,10 +1,44 @@
 header {
     /*display: flex;*/
-    /*padding: 1vw;*/
 }
 .banniere {
     background-image: url('../images/banniere2.png');
     /*height: 450px;*/
     background-repeat: no-repeat;
     background-size: cover;
+}
+section{
+    border-bottom-left-radius: 5px;
+}
+section article {
+    padding: 1vh;
+}
+aside {
+    padding: 1vh;
+    border: 1px solid grey;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: whitesmoke;
+    border-bottom: whitesmoke;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.rond {
+    width: 30px; height: 30px;
+}
+.f1, .f2{
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width: 990px) {
+    aside {
+        border-radius: 20px;
+    }
+    section {
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
 }
