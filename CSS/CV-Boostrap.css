@@ -1,0 +1,10 @@
+header {
+    /*display: flex;*/
+    /*padding: 1vw;*/
+}
+.banniere {
+    background-image: url('../images/banniere2.png');
+    /*height: 450px;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
