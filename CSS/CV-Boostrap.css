@@ -1,5 +1,8 @@
-header {
-    /*display: flex;*/
+body {
+    font-family: Rubik;
+}
+header{
+    text-shadow: 2px 2px 1px black;
 }
 .banniere {
     background-image: url('../images/banniere2.png');
