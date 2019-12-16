@@ -1,12 +1,11 @@
 body {
     font-family: Rubik;
 }
-header{
+header, footer{
     text-shadow: 2px 2px 1px black;
 }
 .banniere {
     background-image: url('../images/banniere2.png');
-    /*height: 450px;*/
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -15,6 +14,11 @@ section{
 }
 section article {
     padding: 1vh;
+}
+section article h3 {
+    letter-spacing: 6px;
+    font-style: italic;
+    margin-left: 2vw;
 }
 aside {
     padding: 1vh;
