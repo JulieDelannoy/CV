@@ -5,9 +5,11 @@ header, footer{
     text-shadow: 2px 2px 1px black;
 }
 .banniere {
-    background-image: url('../images/banniere2.png');
+    background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: space-around;
 }
 section{
     border-bottom-left-radius: 5px;
@@ -54,3 +56,4 @@ footer article {
         border-bottom-left-radius: 20px;
     }
 }
+
