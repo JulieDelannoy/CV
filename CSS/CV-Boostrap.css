@@ -38,7 +38,7 @@ footer{
 .rond {
     width: 30px; height: 30px;
 }
-.f1, .f2{
+.f1 {
     display: flex;
     justify-content: space-around;
 }
@@ -58,4 +58,8 @@ footer article {
     header div img {
         display: none;
     }
+}
+
+@media (max-width: 540px) {
+    .f1 {display: block}
 }
