@@ -60,6 +60,6 @@ footer article {
     }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 550px) {
     .f1 {display: block}
 }
