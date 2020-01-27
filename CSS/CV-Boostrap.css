@@ -30,7 +30,7 @@ aside {
     border-top: whitesmoke;
     border-bottom: whitesmoke;
 }
-footer{
+footer {
     display: flex;
     flex-direction: column;
     border-radius: 5px;
